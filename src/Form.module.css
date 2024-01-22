@@ -1,0 +1,29 @@
+/* Form.module.css */
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-top: 4px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+  
